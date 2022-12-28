@@ -1,0 +1,31 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+thead tr td {
+    color: #000000;
+    font-size: 16px;
+    border: 2px solid black;
+    font-weight: 900;
+    padding: 5px 10px;
+}
+
+tbody tr td {
+    color: #181818;
+    font-size: 14px;
+    border: 2px solid gray;
+    font-weight: 800;
+    padding: 16px 10px;
+}
+
+thead td.action, tbody td.action  {
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+tbody td.action:hover  {
+    background-color: #d4d4d4;
+}

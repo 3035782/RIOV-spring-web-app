@@ -1,0 +1,41 @@
+label {
+    padding: 6px 8px;
+    background: white;
+    border: 1px solid #626262;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+    font-size: 12px;
+}
+
+.checkbox {
+    padding: 6px 8px;
+    background: white;
+    display: inline-flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.checkbox p {
+    margin-top: 1px;
+    padding-left: 10px;
+    color: #626262;
+}
+
+.checkbox input {
+    zoom: 1.5;
+    width: fit-content;
+    cursor: pointer;
+}
+
+label p {
+    color: #626262;
+}
+
+label input {
+    outline: none;
+    background: transparent;
+    color: black;
+    border: none;
+    width: 100%;
+}
